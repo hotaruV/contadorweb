@@ -366,6 +366,7 @@ nav {
 .item_contact a {
     text-decoration: none;
     color: white;
+    cursor: pointer;
 }
 
 .item_contact a:visited {

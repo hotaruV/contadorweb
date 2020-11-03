@@ -253,17 +253,15 @@
             </div>
             <div class="item_contact">
                 <i class='bx bx-check contact_icon' ></i><br>
-
                 <a type="button" class="" data-toggle="modal" data-target=".politica_privacidad">Términos de
                     Privacidad</a>
-                <a href="#" class="Terminos y condiciones"></a>
                 <!-- <i class="bx bx-mail-send contact_icon"></i>
                 <h3 class="contact_tittle">cofisaa@prodigy.net.mx</h3> -->
             </div>
             <div class="item_contact">
                 <i class="bx bx-location-plus contact_icon"></i>
                 <h3 class="contact_tittle">
-                    <a target="_Blank" href="https://www.google.com.mx/maps/place/Calle+Canarias+318,+Portales+Nte,+Benito+Ju%C3%A1rez,+03300+Ciudad+de+M%C3%A9xico,+CDMX/@19.3694069,-99.1492093,17z/data=!3m1!4b1!4m5!3m4!1s0x85d1ffb3155258a9:0xd786fe708fa2f5d7!8m2!3d19.3694019!4d-99.1470206">
+                    <a target="_BLANK" href="https://www.google.com.mx/maps/place/Calle+Canarias+318,+Portales+Nte,+Benito+Ju%C3%A1rez,+03300+Ciudad+de+M%C3%A9xico,+CDMX/@19.3694069,-99.1492093,17z/data=!3m1!4b1!4m5!3m4!1s0x85d1ffb3155258a9:0xd786fe708fa2f5d7!8m2!3d19.3694019!4d-99.1470206">
                     Canarias 318-103, col. Portales norte, Benito Juárez 03300
                     </a>
                 </h3>
