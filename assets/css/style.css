@@ -33,7 +33,6 @@
     width: 100%;
     min-height: 80vh;
     background: linear-gradient(180deg, #30353b 0%, #1a1b1f 100%);
-    
 }
 
 .nav_hero {
@@ -41,25 +40,27 @@
     background: #FAFAFA;
     height: 70px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    top: 0; 
+    top: 0;
 }
-nav{
+
+nav {
     position: sticky;
-    top:0 ;
+    top: 0;
     z-index: 1;
 }
-.nav_hero ul{
+
+.nav_hero ul {
     display: flex;
     margin: 0;
     padding: 0 100px;
     float: right;
 }
 
-.nav_hero ul li{
+.nav_hero ul li {
     list-style: none;
 }
 
-.nav_hero ul li a{
+.nav_hero ul li a {
     display: block;
     display: inline-block;
     color: inherit;
@@ -69,11 +70,10 @@ nav{
 }
 
 .nav_hero a:hover,
-.nav_hero a.link--active{
+.nav_hero a.link--active {
     color: var(--gold1);
     font-weight: 700;
 }
-
 
 .nav_container {
     display: flex;
@@ -99,7 +99,8 @@ nav{
     padding-left: 140px;
     border-radius: 20px;
 }
-.hero_text{
+
+.hero_text {
     width: 48%;
 }
 
@@ -183,7 +184,7 @@ nav{
     position: relative;
     /* text-align: right; */
     margin-bottom: 60px;
-    box-shadow:  0 0 6px var(--color-shadow);
+    box-shadow: 0 0 6px var(--color-shadow);
     border-radius: 6%;
 }
 
@@ -230,17 +231,19 @@ nav{
     padding: 12px 0;
 }
 
-.container-bg{
+.container-bg {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
+
+
 /* .container-bg .card{
     margin: 0;
 } */
 
-.background{
+.background {
     width: 68%;
     height: 210px;
     border-radius: 10px;
@@ -248,13 +251,14 @@ nav{
     margin-bottom: 60px;
 }
 
-.background_img{
+.background_img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: inherit;
 }
-.background_text{
+
+.background_text {
     position: absolute;
     width: 100%;
     bottom: 30px;
@@ -262,12 +266,12 @@ nav{
     color: white;
     font-weight: bold;
 }
-.background_tittle{
+
+.background_tittle {
     font-size: 15px;
     color: white;
     font-weight: 500;
 }
-
 
 .sobremi {
     justify-content: space-between;
@@ -293,79 +297,104 @@ nav{
     object-fit: cover;
     border-radius: 10px 0 0 10px;
 }
-.footer{
-    background: #fafafa ;
+
+.footer {
+    background: #fafafa;
 }
-.footer_caption{
+
+.footer_caption {
     display: flex;
     margin-bottom: 32px;
     justify-content: space-evenly;
 }
-.tittle_footer{
+
+.tittle_footer {
     font-size: 24px;
     margin-top: 32px;
 }
-.copyright{
+
+.copyright {
     width: 100%;
 }
-.politica_privacidad{
+
+.politica_privacidad {
     color: inherit;
     text-decoration: none;
     display: inline-block;
     margin-top: 10px;
     cursor: pointer;
 }
-.politica_privacidad--margin{
+
+.politica_privacidad--margin {
     margin-right: 10px;
 }
-.get_email{ 
+
+.get_email {
     width: 50%;
 }
-.socialmedia{
+
+.socialmedia {
     margin-top: 24px;
     display: flex;
     color: var(--black2);
 }
-.socialmedia_icon{
+
+.socialmedia_icon {
     font-size: 18px;
     margin-right: 30px;
 }
-.socialmedia_leyend{
+
+.socialmedia_leyend {
     color: var(--black2);
     margin-right: 16px;
 }
 
-.contact{
+.contact {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
     color: #FFF;
 }
-.item_contact{
+
+.item_contact {
     width: 25%;
     padding: 30px 10px 10px;
     text-align: center;
     background: linear-gradient(180deg, var(--black2) 0%, var(--black) 100%);
 }
-.item_contact--gold{
+
+.item_contact a {
+    text-decoration: none;
+    color: white;
+}
+
+.item_contact a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.item_contact--gold {
     background: linear-gradient(180deg, #f7CE90 0%, #f48d76 100%);
     color: var(--black);
 }
-.contact_icon{
+
+.contact_icon {
     font-size: 30px;
     color: var(--gold1);
     line-height: 20px;
     margin-right: 4px;
 }
+
 .contact_icon--modifier {
     color: var(--black);
 }
-.contact_tittle{
+
+.contact_tittle {
     font-size: 16px;
     line-height: 20px;
 }
 
-.newsletter{
+.newsletter {
     width: 60%;
     margin: 0 auto;
     margin-top: 40px;
@@ -374,11 +403,13 @@ nav{
     position: relative;
     border-radius: 6px;
 }
-.newsletter-modifier{
+
+.newsletter-modifier {
     margin: 0;
     width: 120%;
 }
-.newsletter_input{
+
+.newsletter_input {
     width: 100%;
     height: 100%;
     padding: 22px 10px;
@@ -388,7 +419,8 @@ nav{
     border: 3px solid var(--black);
     font-size: 15px;
 }
-.newsletter_submit{
+
+.newsletter_submit {
     position: absolute;
     right: 8px;
     top: 10%;
@@ -401,11 +433,9 @@ nav{
     font-family: inherit;
     font-weight: 700;
     cursor: pointer;
-
 }
-.contenido{
+
+.contenido {
     margin: 30px;
     text-align: justify;
-
-    
 }
